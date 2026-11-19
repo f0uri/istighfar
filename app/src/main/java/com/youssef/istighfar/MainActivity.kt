@@ -27,6 +27,7 @@ class MainActivity : Activity() {
         settings.textZoom = 100
         webView.webViewClient = WebViewClient()
         webView.webChromeClient = WebChromeClient()
+        UpdateManager.checkForUpdate(this)
         if (savedInstanceState == null) {
             webView.loadUrl("file:///android_asset/index.html")
         } else {
