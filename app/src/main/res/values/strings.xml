@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">أستغفر اللّه</string>
+    <string name="update_title">يوجد تحديث جديد</string>
+    <string name="update_version">النسخة %1$s واجدة</string>
+    <string name="update_message">اضغط «تحديث» باش تنزل النسخة الجديدة وتثبتها.</string>
+    <string name="update_now">تحديث</string>
+    <string name="update_later">لاحقاً</string>
+    <string name="update_downloading">جاري التنزيل…</string>
+    <string name="update_download_failed">تعذر تنزيل التحديث</string>
 </resources>
